@@ -5,7 +5,7 @@ let securityHeaders = {
 	"X-Frame-Options" : "DENY",
 	"X-Content-Type-Options" : "nosniff",
 	"Referrer-Policy" : "strict-origin-when-cross-origin",
-	"Feature-Policy": "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'"
+	"Permissions-Policy": "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'"
 }
 
 let sanitiseHeaders = {
