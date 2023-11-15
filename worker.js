@@ -5,7 +5,8 @@ let securityHeaders = {
 	"X-Frame-Options" : "DENY",
 	"X-Content-Type-Options" : "nosniff",
 	"Referrer-Policy" : "strict-origin-when-cross-origin",
-	"Permissions-Policy": "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+	"Permissions-Policy": "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()",
+	"Access-Control-Allow-Origin" : "https://www.aunitz.net"
 }
 
 let sanitiseHeaders = {
